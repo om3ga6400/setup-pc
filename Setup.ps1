@@ -23,9 +23,7 @@ Start-Process "$env:USERPROFILE\Downloads\Equilotl.exe"
 Invoke-WebRequest "https://github.com/voidstrap/Voidstrap/releases/latest/download/Voidstrap.exe" -OutFile "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 
-Invoke-WebRequest "https://github.com/SpotX-Official/SpotX/releases/latest/download/Install_New_theme.bat" -OutFile "$env:USERPROFILE\Downloads\SpotX.bat"
-Start-Process "$env:USERPROFILE\Downloads\SpotX.bat"
-
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
+
