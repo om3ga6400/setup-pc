@@ -26,5 +26,3 @@ Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
-
-
