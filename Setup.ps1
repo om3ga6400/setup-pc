@@ -14,7 +14,7 @@ winget install Valve.Steam
 winget install EpicGames.EpicGamesLauncher
 winget install PrismLauncher.PrismLauncher
 
-winget install Microsoft.PowerShell
+winget install Microsoft.PowerShell.Preview
 winget install TechPowerUp.NVCleanstall
 
 Invoke-WebRequest "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe" -OutFile "$env:USERPROFILE\Downloads\Equilotl.exe"
@@ -26,4 +26,5 @@ Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
+
 
