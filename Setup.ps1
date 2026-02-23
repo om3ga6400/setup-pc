@@ -1,10 +1,5 @@
-winget install Proton.ProtonVPN
-winget install Proton.ProtonAuthenticator
-winget install Proton.ProtonPass
-winget install AdGuard.AdGuard
-winget install HiBitSoftware.HiBitUninstaller
-
 winget install Ablaze.Floorp
+winget install eloston.ungoogled-chromium
 winget install Spotify.Spotify
 winget install Discord.Discord
 
@@ -12,8 +7,18 @@ winget install Valve.Steam
 winget install EpicGames.EpicGamesLauncher
 winget install PrismLauncher.PrismLauncher
 
-winget install Microsoft.PowerShell
+winget install Proton.ProtonVPN
+winget install Proton.ProtonAuthenticator
+winget install Proton.ProtonPass
+winget install AdGuard.AdGuard
+winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
+
+winget install Microsoft.PowerShell
+winget install Microsoft.PowerShell.Preview
+winget install GitHub.GitHubDesktop
+winget install Microsoft.VisualStudioCode
+winget install Git.Git
 
 Invoke-WebRequest "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe" -OutFile "$env:USERPROFILE\Downloads\Equilotl.exe"
 Start-Process "$env:USERPROFILE\Downloads\Equilotl.exe"
@@ -24,4 +29,5 @@ Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
+
 
