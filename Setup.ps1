@@ -20,7 +20,7 @@ winget install Microsoft.PowerShell.Preview
 winget install GitHub.GitHubDesktop
 winget install Microsoft.VisualStudioCode
 winget install Git.Git
-Notepad++.Notepad++
+winget install Notepad++.Notepad++
 
 Invoke-WebRequest "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe" -OutFile "$env:USERPROFILE\Downloads\Equilotl.exe"
 Start-Process "$env:USERPROFILE\Downloads\Equilotl.exe"
@@ -31,6 +31,7 @@ Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
+
 
 
 
