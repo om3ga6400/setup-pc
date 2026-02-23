@@ -14,6 +14,7 @@ winget install AdGuard.AdGuard
 winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
 
+winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerShell
 winget install Microsoft.PowerShell.Preview
 winget install GitHub.GitHubDesktop
@@ -29,5 +30,6 @@ Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
+
 
 
