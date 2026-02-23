@@ -1,5 +1,6 @@
 winget install Ablaze.Floorp
-winget install eloston.ungoogled-chromium
+winget install Eloston.Ungoogled-Chromium
+
 winget install Spotify.Spotify
 winget install Discord.Discord
 
@@ -11,8 +12,10 @@ winget install Proton.ProtonVPN
 winget install Proton.ProtonAuthenticator
 winget install Proton.ProtonPass
 winget install AdGuard.AdGuard
+
 winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
+winget install Winaero.Tweaker
 
 winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerShell
@@ -31,6 +34,7 @@ Start-Process "$env:USERPROFILE\Downloads\Voidstrap.exe"
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
 
 winget update --all --include-unknown
+
 
 
 
