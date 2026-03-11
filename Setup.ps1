@@ -15,7 +15,7 @@ winget install AdGuard.AdGuard
 
 winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
-winget install Winaero.Tweaker
+winget install MartiCliment.UniGetUI
 
 winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerShell
@@ -53,3 +53,4 @@ Invoke-WebRequest "https://github.com/mifi/lossless-cut/releases/latest/download
 & "$env:LOCALAPPDATA\Microsoft\WindowsApps\NanaZipC.exe" x "$DownloadFolder\LosslessCut-win-x64.7z" -o"$DownloadFolder\LosslessCut" -y
 
 Start-Process "https://github.com/statsfm/specter-releases/tags/"
+
