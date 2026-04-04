@@ -1,4 +1,4 @@
-winget install Ablaze.Floorp
+winget install Waterfox.Waterfox
 winget install Eloston.Ungoogled-Chromium
 
 winget install Spotify.Spotify
@@ -7,11 +7,13 @@ winget install Discord.Discord
 winget install Valve.Steam
 winget install EpicGames.EpicGamesLauncher
 winget install PrismLauncher.PrismLauncher
+winget install Playnite.Playnite
 
 winget install Proton.ProtonVPN
 winget install Proton.ProtonAuthenticator
 winget install Proton.ProtonPass
 winget install AdGuard.AdGuard
+winget install ActivityWatch.ActivityWatch
 
 winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
