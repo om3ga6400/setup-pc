@@ -1,5 +1,4 @@
 winget install Waterfox.Waterfox
-winget install Eloston.Ungoogled-Chromium
 
 winget install Spotify.Spotify
 winget install Discord.Discord
