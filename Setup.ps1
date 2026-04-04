@@ -26,7 +26,7 @@ winget install GitHub.GitHubDesktop
 winget install Microsoft.VisualStudioCode
 winget install Git.Git
 
-winget install PeterPawlowski.Foobar2000
+winget install VideoLAN.VLC
 
 winget install Corsair.iCUE.5
 winget install SteelSeries.GG
