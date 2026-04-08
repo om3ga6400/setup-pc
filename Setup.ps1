@@ -12,7 +12,6 @@ winget install Proton.ProtonVPN
 winget install Proton.ProtonAuthenticator
 winget install Proton.ProtonPass
 winget install AdGuard.AdGuard
-winget install ActivityWatch.ActivityWatch
 
 winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
@@ -32,8 +31,6 @@ winget install Corsair.iCUE.5
 winget install SteelSeries.GG
 
 OBSProject.OBSStudio
-
-winget update --all --include-unknown
 
 $DownloadFolder = "$env:USERPROFILE\Desktop\Downloads"
 New-Item -ItemType Directory -Path $DownloadFolder
