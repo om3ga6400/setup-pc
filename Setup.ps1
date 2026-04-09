@@ -16,7 +16,6 @@ winget install AdGuard.AdGuard
 winget install HiBitSoftware.HiBitUninstaller
 winget install TechPowerUp.NVCleanstall
 winget install MartiCliment.UniGetUI
-winget install JohannesMillan.superProductivity
 
 winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerShell
