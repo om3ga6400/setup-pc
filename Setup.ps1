@@ -25,5 +25,6 @@ Start-Process "https://github.com/voidstrap/Voidstrap/releases/latest/download/V
 Start-Process "https://api.wooting.io/public/wootility/download?os=win"
 Start-Process "https://github.com/okkdev/melty-installer/releases/latest/download/MeltyInstaller.exe"
 Start-Process "https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z"
+Start-Process "https://github.com/geode-sdk/geode/releases/latest"
 
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "ShowSecondsInSystemClock" -Value 1
