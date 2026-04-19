@@ -19,6 +19,7 @@ winget install Git.Git
 winget install Corsair.iCUE.5
 winget install SteelSeries.GG
 winget install OBSProject.OBSStudio
+winget install ActivityWatch.ActivityWatch
 
 Start-Process "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe"
 Start-Process "https://github.com/voidstrap/Voidstrap/releases/latest/download/Voidstrap.exe"
