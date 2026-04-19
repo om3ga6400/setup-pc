@@ -23,10 +23,11 @@ winget install ActivityWatch.ActivityWatch
 
 Start-Process "https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe"
 Start-Process "https://github.com/voidstrap/Voidstrap/releases/latest/download/Voidstrap.exe"
-Start-Process "https://api.wooting.io/public/wootility/download?os=win"
 Start-Process "https://github.com/okkdev/melty-installer/releases/latest/download/MeltyInstaller.exe"
-Start-Process "https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z"
+Start-Process "https://github.com/Devolutions/UniGetUI/releases/download/latest/UniGetUI.Installer.exe"
+Start-Process "https://api.wooting.io/public/wootility/download?os=win"
 Start-Process "https://github.com/geode-sdk/geode/releases/latest"
+Start-Process "https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z"
 
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "ShowSecondsInSystemClock" -Value 1
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "NoConnectedUser" -Value 1
