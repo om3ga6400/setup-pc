@@ -18,7 +18,7 @@ winget install SteelSeries.GG
 winget install OBSProject.OBSStudio
 winget install ActivityWatch.ActivityWatch
 
-Start-Process "https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli.exe"
+Start-Process "https://github.com/TestcordDev/TestCord/releases/download/latest/Windows_Testcord_installer-rel_cli.exe"
 Start-Process "https://github.com/voidstrap/Voidstrap/releases/latest/download/Voidstrap.exe"
 Start-Process "https://api.wooting.io/public/wootility/download?os=win"
 Start-Process "https://github.com/geode-sdk/geode/releases/latest"
