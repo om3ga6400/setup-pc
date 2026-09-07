@@ -15,6 +15,7 @@ winget install Corsair.iCUE.5
 winget install SteelSeries.GG
 winget install OBSProject.OBSStudio
 winget install Devolutions.UniGetUI
+winget install Jurplel.qView
 
 Start-Process "https://github.com/TestcordDev/TestCord/releases/download/latest/Windows_Testcord_installer-rel.exe"
 Start-Process "https://github.com/KloBraticc/Voidstrap/releases/latest/download/Voidstrap.exe"
