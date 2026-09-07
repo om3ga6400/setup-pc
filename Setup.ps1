@@ -1,4 +1,4 @@
-winget install Mozilla.Firefox
+winget install Mozilla.Firefox.Beta
 winget install Spotify.Spotify
 winget install Discord.Discord
 winget install Valve.Steam
