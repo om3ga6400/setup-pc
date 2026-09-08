@@ -10,7 +10,6 @@ winget install Microsoft.WindowsTerminal
 winget install Microsoft.PowerShell
 winget install GitHub.GitHubDesktop
 winget install VSCodium.VSCodium
-winget install Git.Git
 winget install Corsair.iCUE.5
 winget install SteelSeries.GG
 winget install OBSProject.OBSStudio
