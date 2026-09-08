@@ -19,6 +19,7 @@ winget install VideoLAN.VLC
 winget install Proton.ProtonPass
 winget install Proton.ProtonAuthenticator
 winget install Proton.ProtonVPN
+winget install Git.Git
 
 Start-Process "https://github.com/TestcordDev/TestCord/releases/download/latest/Windows_Testcord_installer-rel.exe"
 Start-Process "https://github.com/KloBraticc/Voidstrap/releases/latest/download/Voidstrap.exe"
