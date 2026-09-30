@@ -22,6 +22,7 @@ winget install Proton.ProtonVPN
 winget install Git.Git
 winget install OpenJS.NodeJS
 winget install Blur009.BlurAutoClicker
+winget install kawaiiDango.pano-scrobbler
 
 Start-Process "https://github.com/TestcordDev/TestCord/releases/download/latest/Windows_Testcord_installer-rel.exe"
 Start-Process "https://github.com/KloBraticc/Voidstrap/releases/latest/download/Voidstrap.exe"
